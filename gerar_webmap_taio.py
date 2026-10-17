@@ -54,7 +54,6 @@ OUT_HTML = BASE / "webmap_taio.html"
 
 MARCA_ROXO_ESCURO = "#1B263B"  # nova identidade TAIO -- fundo secundario (era roxo escuro)
 MARCA_ROXO = "#E23D2B"  # nova identidade TAIO -- cor de destaque (era roxo)
-MARCA_AZUL = "#547B8C"  # nova identidade TAIO
 MARCA_NAVY = "#0D1B2A"  # nova identidade TAIO -- fundo principal
 MARCA_CINZA_CLARO = "#F2F4F5"  # nova identidade TAIO
 MARCA_FONTE = "Montserrat, Arial, sans-serif"
