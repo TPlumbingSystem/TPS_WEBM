@@ -52,10 +52,10 @@ OSM_LUGARES = BANCO / "saida_processada" / "osm_lugares.geojson"
 LOGO_PATH = BASE / "assets" / "logo_taio.png"
 OUT_HTML = BASE / "webmap_taio.html"
 
-MARCA_ROXO_ESCURO = "#1B263B"  # nova identidade TAIO -- fundo secundario (era roxo escuro)
-MARCA_ROXO = "#E23D2B"  # nova identidade TAIO -- cor de destaque (era roxo)
-MARCA_NAVY = "#0D1B2A"  # nova identidade TAIO -- fundo principal
-MARCA_CINZA_CLARO = "#F2F4F5"  # nova identidade TAIO
+MARCA_ROXO_ESCURO = "#0C2945"  # nova identidade TAIO -- fundo secundario (era roxo escuro)
+MARCA_ROXO = "#13BBE6"  # Signal Cyan -- destaque da interface (vermelho Magma Red so p/ intrusoes)
+MARCA_NAVY = "#071729"  # nova identidade TAIO -- fundo principal
+MARCA_CINZA_CLARO = "#F1F5F9"  # nova identidade TAIO
 MARCA_FONTE = "Montserrat, Arial, sans-serif"
 
 COR_SILL = "#49B18C"
@@ -436,14 +436,14 @@ def main():
     font-weight: 600; opacity: 0.85; margin-bottom: 2px; display: flex; align-items: center; gap: 5px;
     cursor: pointer; border-radius: 4px; padding: 2px 3px; transition: background 0.12s;
   }}
-  #legenda .secao-titulo:hover {{ background: rgba(123,47,255,0.25); }}
+  #legenda .secao-titulo:hover {{ background: rgba(19,187,230,0.25); }}
   #legenda .secao-titulo .marca {{ font-size: 10px; width: 11px; flex-shrink: 0; text-align: center; }}
   #legenda .secao.inativa .secao-titulo {{ opacity: 0.5; text-decoration: line-through; }}
   #legenda .item {{
     display: flex; align-items: center; gap: 6px; line-height: 1.5; padding: 1px 3px 1px 16px;
     cursor: pointer; border-radius: 4px; transition: background 0.12s;
   }}
-  #legenda .item:hover {{ background: rgba(123,47,255,0.25); }}
+  #legenda .item:hover {{ background: rgba(19,187,230,0.25); }}
   #legenda .item.item-inativa {{ opacity: 0.4; text-decoration: line-through; }}
   #legenda .item .marca-item {{ font-size: 9px; width: 10px; flex-shrink: 0; text-align: center; }}
   #legenda .amostra {{ width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; border: 1px solid rgba(255,255,255,0.5); }}
